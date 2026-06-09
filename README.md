@@ -85,6 +85,12 @@ video-monitor-web/
 **Q: 单片机怎么上传视频？**
 这个项目只管网页展示。单片机那边用 Supabase 的 REST API 或者 SDK 上传文件到 Bucket 就行，ESP32 上用 HTTP Client 直接调 Supabase Storage API 很方便。
 
+## 升级版
+
+如果你需要**同时支持视频和图片**、**自动刷新**、以及**单片机上传模拟脚本**，可以看 v2 升级版：[mcu-monitor](https://github.com/kiiira-123/mcu-monitor)。
+
+v1（本项目）代码更精简，适合先理解核心逻辑；v2 功能更全，适合直接拿来用。
+
 ## 致谢
 
 本项目为团队竞赛 Demo 项目，感谢所有参与开发的小伙伴。
